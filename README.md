@@ -8,12 +8,6 @@ Front end A/B testing demands a strong working knowledge of DOM manipulation. Th
 
 Your challenge is to provide meaningfully different solutions using various techniques. Please provide at least 3 solutions, but you are welcome to do as many as you'd like. Each solution should be its own file under a `solutions/` directory. Filenames should follow the following convention: `solution1.js`, `solution2.js`, etc. Clone this repo and provide your solutions on your GitHub account. See email for submission instructions.
 
-## CSS Challenge
-
-Use the included `styles.css` file to vertically and horizontally center the ice cream list `ul` while keeping the the ice cream flavor `li`s left-aligned.
-
-Beyond that, add whatever styles you see fit to show off your CSS skills. Please, though, don't feel pressured to spend more than an hour on this portion.
-
 ### Expected output
 
 Initial state of the list:
@@ -56,3 +50,10 @@ Expected goal state of the list:
   'butter pecan'
 ];
 ```
+
+
+## CSS Challenge
+
+Use the included `styles.css` file to vertically and horizontally center the ice cream list `ul` while keeping the the ice cream flavor `li`s left-aligned.
+
+Beyond that, add whatever styles you see fit to show off your CSS skills. Please, though, don't feel pressured to spend more than an hour on this portion.
