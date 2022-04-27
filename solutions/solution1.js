@@ -1,5 +1,5 @@
-function solution1() {
-  if (window.iceCreamFlavors.length) {
+const solution1 = (() => {
+  if (window.iceCreamFlavors.length && document.readyState === "complete") {
     const ul = document.getElementsByClassName("ice-cream-list")[0];
     window.iceCreamFlavors.map((flavor) => {
       const li = document.createElement("li");
@@ -8,4 +8,4 @@ function solution1() {
       ul.appendChild(li);
     });
   }
-}
+})();
