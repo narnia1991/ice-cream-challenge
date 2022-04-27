@@ -7,12 +7,13 @@ $(document).ready(() => {
 
   // clone list for check later
   $(document).data("initialList", $(".ice-cream-list").clone(true));
-
-  $("ul").append(
-    () =>
+  const timeOut = setTimeout(() => {
+    $("ul").html(
       window.iceCreamFlavors.length &&
-      window.iceCreamFlavors.map((flavor) => {
-        return `<li class="ice-cream-flavor">${flavor}</li>`;
-      })
-  );
-}, 500);
+        window.iceCreamFlavors.map(
+          (flavor) => `<li class="ice-cream-flavor">${flavor}</li>`
+        )
+    );
+    clearTimeout(timeOut);
+  }, 500);
+});
